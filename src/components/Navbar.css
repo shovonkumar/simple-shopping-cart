@@ -1,13 +1,18 @@
 .navbar {
+    overflow: hidden;
     width: 100%;
-    height: 80px;
+    height: auto;
     background-color: rgb(19, 19, 19);
+}
+.navContainer {
+    margin: 0 auto;
+    width: 85%;
+    height: auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
 }
 .links {
-    margin-right: 50px;
     display: flex;
     align-items: center;
 }
@@ -16,4 +21,20 @@
     color: white;
     margin-left: 20px;
     font-size: 25px;
-  }
+}
+.Navtitle {
+    color: #fff;
+    font-size: 17px;
+}
+
+@media (max-width: 900px) {
+    .navContainer {
+        width: 95%;
+    }
+    .Navtitle {
+        font-size: 13px !important;
+    }
+    .links a {
+        font-size: 20px;
+    }
+}
