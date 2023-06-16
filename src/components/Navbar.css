@@ -15,23 +15,27 @@
 .links {
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 .links a {
     text-decoration: none;
     color: white;
-    margin-left: 20px;
     font-size: 25px;
+    line-height: 1;
 }
-.Navtitle {
+.navTitle  {
     color: #fff;
-    font-size: 17px;
+    font-size: 18px;
+    text-decoration: none !important;
+    line-height: 1;
 }
+
 
 @media (max-width: 900px) {
     .navContainer {
         width: 95%;
     }
-    .Navtitle {
+    .navTitle {
         font-size: 13px !important;
     }
     .links a {

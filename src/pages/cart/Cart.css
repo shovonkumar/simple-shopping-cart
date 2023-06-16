@@ -1,0 +1,36 @@
+.Cart {
+    width: 85%;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 900px) {
+    .Cart {
+        width: 95%;
+    }
+}
+
+.CartItem {
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 15px;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    gap: 25px;
+}
+.CartItem img {
+    width: 180px;
+}
+
+.CartItem .ItemDesc {
+    width: 80%;
+    font-size: 20px;
+}
