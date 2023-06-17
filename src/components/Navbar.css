@@ -1,5 +1,5 @@
 .navbar {
-    overflow: hidden;
+    overflow: hidden !important;
     width: 100%;
     height: auto;
     background-color: rgb(19, 19, 19);
@@ -40,5 +40,16 @@
     }
     .links a {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .navTitle {
+        font-size: 11px !important;
+        line-height: 1.2;
+    }
+    .links a {
+        font-size: 18px;
     }
 }
