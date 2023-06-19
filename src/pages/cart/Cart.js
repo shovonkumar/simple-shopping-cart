@@ -1,4 +1,4 @@
-import React, { useContext, Fragment } from "react";
+import React, { useContext } from "react";
 import { PRODUCTS } from "../../productInfo";
 import ShopContext from "../../context/ShopContext";
 import CartItem from "./CartItem";
